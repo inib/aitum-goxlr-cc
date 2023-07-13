@@ -19,6 +19,10 @@ You need  to install [GoXLR JS] lib, available via [npm](https://npmjs.org/goxlr
 
 This is currently just a quick proof of concept. More complex scripts are currently in development.
 
+### FX toggles
+
+Implementation of the 4 FX buttons of the GoXLR. Since there is currently a bug in the GoXLR-JS wrapper, I'll wait with publishing. (see https://github.com/teddybrine/goxlr-js/compare/main...inib:goxlr-js:enableFX-bug)
+
 ### Channel Volume Control
 
 Control the Volume (0-100) of every available channel on the GoXLR, including the ones not active on the faders:
